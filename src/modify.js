@@ -50,16 +50,16 @@ const makeAlphabet = () => {
 };
 
 const makeBio = () => {
-  // const contents =`<h2 id="bio-heading">About Me</h2>
-  // <p>My name is Zo and I like learn cool new things</p>
-  // <h3 id="hobby-heading">My Hobbies</h3>
-  // <ul>
-  //   <li>Running</li>
-  //   <li>Reading</li>
-  //   <li>Writing</li>
-  // </ul>`
-  // document.getElementById('my-bio').innerHTML = contents
-};
+  document.querySelector('#my-bio').innerHTML = `
+  <h2 id="bio-heading">About Me</h2>
+<p>My name is Zo and I like learn cool new things</p>
+<h3 id="hobby-heading">My Hobbies</h3>
+<ul>
+  <li>Running</li>
+  <li>Reading</li>
+  <li>Writing</li>
+</ul>  `
+}
 
 // "runner" function
 const main = () => {
