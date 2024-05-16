@@ -1,5 +1,5 @@
 const { TestEnvironment } = require("jest-environment-jsdom");
-
+/** FEEDBACK: Overall great job! You have most test cases passing with only one function failing! */
 const getMainHeadingText = () => {
   let text = document.querySelector("#main-heading").textContent
   console.log(text)
@@ -38,6 +38,7 @@ const removeOldInfo = () => {
   oldPTag.remove()
 };
 
+/** FEEDBACK: You are really close! Instead of using fromCharSet, you could also initialize a string with the alphabet and use that as your indexes! */
 const makeAlphabet = () => {
   // const letters = document.getElementById('alphabet').database.numLetters;
   // const alphabet = document.getElementById('alphabet')
